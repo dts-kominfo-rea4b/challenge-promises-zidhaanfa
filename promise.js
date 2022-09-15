@@ -8,7 +8,8 @@ const promiseOutput = async () => {
     const hasil = xxi.concat(vgc);
     marah = hasil.filter((item) => item.hasil === "marah").length;
     tidakMarah = hasil.filter((item) => item.hasil === "tidak marah").length;
-    resolve('marah: ' + marah + ', tidak marah: ' + tidakMarah);
+    console.log(tidakMarah);
+    console.log(marah);
   });
   return outout;
 }
